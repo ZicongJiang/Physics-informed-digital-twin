@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PIDT: Physics-Informed Digital Twin for Optical Fiber Parameter Estimation </h1>
+<h1>PIDT: Physics-Informed Digital Twin for Optical Fiber Parameter Estimation</h1>
 
 <a href="" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Paper-blue" alt="Paper PDF">
@@ -7,11 +7,10 @@
 <a href=""><img src="https://img.shields.io/badge/arXiv-blue" alt="arXiv"></a>
 <a href="/"><img src="https://img.shields.io/badge/project_page-green" alt="Project Page"></a>
 
-**[School of Computer and Communication Sciences, EPFL](https://www.epfl.ch/labs/ivrl/)**<br>
-**[Department of Electrical and Photonics Engineering, DTU](https://orbit.dtu.dk/en/organisations/department-of-electrical-and-photonics-engineering/)**<br>
-**[Department of Electrical Engineering, Chalmers University of Technology](https://www.chalmers.se/en/departments/e2/)**
+**[Department of Electrical Engineering, Chalmers University of Technology](https://www.chalmers.se/en/departments/e2/)**<br>
+**[Department of Microtechnology and Nanoscience, Chalmers University of Technology](https://www.chalmers.se/en/departments/mc2/)**
 
-[Zicong Jiang](https://yufan-ren.com/), [Zicong Jiang](https://zicongjiang.github.io/zicong-jiang/), [Tong Zhang](https://sites.google.com/view/tong-zhang/), [Søren Otto Forchhammer](https://orbit.dtu.dk/en/persons/s%C3%B8ren-otto-forchhammer/), [Sabine Süsstrunk](https://people.epfl.ch/sabine.susstrunk/)
+[Zicong Jiang](https://zicongjiang.github.io/zicong-jiang/), [Magnus Karlsson](https://www.chalmers.se/en/persons/magkar/), [Erik Agrell](https://www.chalmers.se/en/persons/agrell/), [Christian Häger](https://chaeger.github.io/)
 </div>
 
 
@@ -21,7 +20,7 @@
 ```
 ## Overview
 
-Text-guided image editing using Text-to-Image (T2I) models often fails to yield satisfactory results, frequently introducing unintended modifications, such as the loss of local detail and color changes. In this paper, we analyze these failure cases and attribute them to the indiscriminate optimization across all frequency bands, even though only specific frequencies may require adjustment. To address this, we introduce a simple yet effective approach that enables the selective optimization of specific frequency bands within localized spatial regions for precise edits. Our method leverages wavelets to decompose images into different spatial resolutions across multiple frequency bands, enabling precise modifications at various levels of detail. To extend the applicability of our approach, we provide a comparative analysis of different frequency-domain techniques. Additionally, we extend our method to 3D texture editing by performing frequency decomposition on the triplane representation, enabling frequency-aware adjustments for 3D textures. Quantitative evaluations and user studies demonstrate the effectiveness of our method in producing high-quality and precise edits. Further details are available on our project website. 
+We propose physics-informed digital twin (PIDT): a fiber parameter estimation approach that combines a parameterized split-step method with a physics-informed loss. PIDT improves accuracy and convergence speed with lower complexity compared to previous neural operators.
 
 <!-- ![framework](./assets/framework.png)
 
