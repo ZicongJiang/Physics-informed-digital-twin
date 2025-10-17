@@ -16,7 +16,7 @@
 ````
 ⚠️ The code will be realsed once the paper is accepted.
 ````
-
+---
 ## Overview
 
 We propose physics-informed digital twin (PIDT): a fiber parameter estimation approach that combines a parameterized split-step method with a physics-informed loss. PIDT improves accuracy and convergence speed with lower complexity compared to previous neural operators.
@@ -27,7 +27,8 @@ Performance
 
 ![results](assets/results.png)
 
-# Install dependencies
+---
+## Install dependencies
 
 ```
 ```
@@ -49,9 +50,9 @@ cd pytorch_wavelets
 pip install .
 cd .. -->
 
-# Parameter estimation
+### Parameter estimation
 
-##  The PIDT for parameter estimation
+####  The PIDT for parameter estimation
 
 ```python
 
@@ -63,13 +64,15 @@ cd .. -->
 
 python run2d.py --use_dds # DDS -->
 
-##  The PINO for parameter estimation
+####  The PINO for parameter estimation
 
 ```python
 
 ```
 
-## If you find our work useful, please consider citing our paper or using this implementation.
+---
+Thanks for your interest in our work!
+If you find our work useful, please consider citing our paper or using this implementation.
 ```bibtex
 @article{
 }
