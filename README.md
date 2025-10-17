@@ -21,16 +21,18 @@
 
 We propose physics-informed digital twin (PIDT): a fiber parameter estimation approach that combines a parameterized split-step method with a physics-informed loss. PIDT improves accuracy and convergence speed with lower complexity compared to previous neural operators.
 
-<!-- ![framework](./assets/framework.png)
+![framework](assets/Overview.png)
 
-Examples:
+Performance
 
-![teaser](./assets/teaser.png) -->
+![results](assets/results.png)
 
 # Install dependencies
 
 ```
-# step 1: create a new conda environment (tested on Linux)
+```
+
+<!-- # step 1: create a new conda environment (tested on Linux)
 conda create -n fds python=3.10 pip
 # or `conda create --prefix /data/conda/fds python=3.10 pip` if you want to install it in a specific directory
 
@@ -45,31 +47,29 @@ pip install -r requirements.txt
 git clone https://github.com/fbcotter/pytorch_wavelets
 cd pytorch_wavelets
 pip install .
-cd ..
-```
+cd .. -->
 
 # Parameter estimation
 
 ##  The PIDT for parameter estimation
 
 ```python
-python run2d.py # FDS
+
+```
+
+<!-- python run2d.py # FDS
 
 # which is equivalent to the default setting: python run2d.py --image_path "data/stones.png" --source_prompt "a stack of stone" --target_prompt "a Buddha statue" --dwt_dds --use_dds --J 2 --num_iters 600 --gs 7.5 --seed 24 --keep_low
 
-python run2d.py --use_dds # DDS
-```
+python run2d.py --use_dds # DDS -->
 
 ##  The PINO for parameter estimation
 
 ```python
-python run2d.py # FDS
 
-# which is equivalent to the default setting: python run2d.py --image_path "data/stones.png" --source_prompt "a stack of stone" --target_prompt "a Buddha statue" --dwt_dds --use_dds --J 2 --num_iters 600 --gs 7.5 --seed 24 --keep_low
-
-python run2d.py --use_dds # DDS
 ```
 
+## If you find our work useful, please consider citing our paper or using this implementation.
 ```bibtex
 @article{
 }

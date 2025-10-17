@@ -1,8 +1,0 @@
-cff-version: 1.2.0
-title: "Official implementation of PIDT"
-authors:
-  - family-names: Jiang
-    given-names: Zicong
-conference: "Optical Fiber Communication Conference (OFC)"
-year: 2025
-url: "https://github.com/ZicongJiang/Physics-informed-digital-twin"
