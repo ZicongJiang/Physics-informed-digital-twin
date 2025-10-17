@@ -16,7 +16,7 @@
 ````
 ⚠️ The code will be realsed once the paper is accepted.
 ````
----
+
 ## Overview
 
 We propose physics-informed digital twin (PIDT): a fiber parameter estimation approach that combines a parameterized split-step method with a physics-informed loss. PIDT improves accuracy and convergence speed with lower complexity compared to previous neural operators.
@@ -27,7 +27,7 @@ Performance
 
 ![results](assets/results.png)
 
----
+
 ## Install dependencies
 
 ```
