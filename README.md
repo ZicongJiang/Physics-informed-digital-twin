@@ -13,11 +13,10 @@
 [Zicong Jiang](https://zicongjiang.github.io/zicong-jiang/), [Magnus Karlsson](https://www.chalmers.se/en/persons/magkar/), [Erik Agrell](https://www.chalmers.se/en/persons/agrell/), [Christian Häger](https://chaeger.github.io/)
 </div>
 
+````
+⚠️ The code will be realsed once the paper is accepted.
+````
 
-```bibtex
-@article{
-}
-```
 ## Overview
 
 We propose physics-informed digital twin (PIDT): a fiber parameter estimation approach that combines a parameterized split-step method with a physics-informed loss. PIDT improves accuracy and convergence speed with lower complexity compared to previous neural operators.
@@ -69,4 +68,9 @@ python run2d.py # FDS
 # which is equivalent to the default setting: python run2d.py --image_path "data/stones.png" --source_prompt "a stack of stone" --target_prompt "a Buddha statue" --dwt_dds --use_dds --J 2 --num_iters 600 --gs 7.5 --seed 24 --keep_low
 
 python run2d.py --use_dds # DDS
+```
+
+```bibtex
+@article{
+}
 ```
