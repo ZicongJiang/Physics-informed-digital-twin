@@ -43,8 +43,11 @@ python -m pip install --upgrade pip
 ## PyTorch
 pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
 
+## CUDA
+conda install -c "nvidia/label/cuda-12.1.0" cuda-toolkit
+
 ## JAX
-pip install --upgrade "jax[cuda12]"
+pip install jax[cuda12]==0.4.30 jaxlib==0.4.30
 
 ## Others
 pip install -r requirements.txt
