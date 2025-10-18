@@ -31,7 +31,33 @@ Performance
 ## Install dependencies
 
 ```
+# step 1: create a new conda environment (tested on Windows)
+conda create -n pidt python=3.10
+
+# step 2: activate the environment
+conda activate pidt
+
+# step 3: install the dependencies
+python -m pip install --upgrade pip
+
+## PyTorch
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 --extra-index-url https://download.pytorch.org/whl/cu117
+
+## JAX
+pip install --upgrade "jax[cuda12]"
+
+## Others
+pip install -r requirements.txt
 ```
+<!-- pip install tqdm
+
+pip install interpax
+
+pip install pyyaml
+
+pip install matplotlib
+pip install pandas
+pip install scipy -->
 
 <!-- # step 1: create a new conda environment (tested on Linux)
 conda create -n fds python=3.10 pip
@@ -55,19 +81,13 @@ cd .. -->
 ####  The PIDT for parameter estimation
 
 ```python
-
+python main.py --N_data 1000 --Nitr 300000 --nsym 32 --sps 2 --step_num 50 --step_num_dt 4 --power_dbm 0 --lamio 1 --loss l1 --noise_db 20
 ```
-
-<!-- python run2d.py # FDS
-
-# which is equivalent to the default setting: python run2d.py --image_path "data/stones.png" --source_prompt "a stack of stone" --target_prompt "a Buddha statue" --dwt_dds --use_dds --J 2 --num_iters 600 --gs 7.5 --seed 24 --keep_low
-
-python run2d.py --use_dds # DDS -->
 
 ####  The PINO for parameter estimation
 
 ```python
-
+python main_pino.py --power_dbm 0 --sps 2 --nsym 32 --N_data 1000 --Nitr 300000 --N_neurons 900 --feature_size 900 --N_layers 8 --noise_db 20 --lr 1e-3
 ```
 
 ---
