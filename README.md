@@ -14,7 +14,7 @@
 </div>
 
 ````
-⚠️ The code will be realsed once the paper is accepted.
+⚠️ The code will be released once the paper is accepted.
 ````
 
 ## Overview
