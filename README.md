@@ -4,7 +4,7 @@
 <a href="https://arxiv.org/abs/2601.07436" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/Paper-blue" alt="Paper PDF">
 </a>
-<a href="https://arxiv.org/abs/2601.07436"><img src="https://arxiv.org/abs/2601.07436" alt="arXiv"></a>
+<a href="https://arxiv.org/abs/2601.07436"><img src="https://img.shields.io/badge/arXiv-blue" alt="arXiv"></a>
 <a href="https://github.com/ZicongJiang/Physics-informed-digital-twin"><img src="https://img.shields.io/badge/project_page-green" alt="Project Page"></a>
 
 **[Department of Electrical Engineering, Chalmers University of Technology](https://www.chalmers.se/en/departments/e2/)**<br>
