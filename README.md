@@ -2,20 +2,16 @@
 <h1>PIDT: Physics-Informed Digital Twin for Optical Fiber Parameter Estimation</h1>
 
 <a href="" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/Paper-blue" alt="Paper PDF">
+  <img src="https://arxiv.org/abs/2601.07436" alt="Paper PDF">
 </a>
-<a href=""><img src="https://img.shields.io/badge/arXiv-blue" alt="arXiv"></a>
-<a href="/"><img src="https://img.shields.io/badge/project_page-green" alt="Project Page"></a>
+<a href=""><img src="https://arxiv.org/abs/2601.07436" alt="arXiv"></a>
+<a href="/"><img src="https://github.com/ZicongJiang/Physics-informed-digital-twin" alt="Project Page"></a>
 
 **[Department of Electrical Engineering, Chalmers University of Technology](https://www.chalmers.se/en/departments/e2/)**<br>
 **[Department of Microtechnology and Nanoscience, Chalmers University of Technology](https://www.chalmers.se/en/departments/mc2/)**
 
 [Zicong Jiang](https://zicongjiang.github.io/zicong-jiang/), [Magnus Karlsson](https://www.chalmers.se/en/persons/magkar/), [Erik Agrell](https://www.chalmers.se/en/persons/agrell/), [Christian Häger](https://chaeger.github.io/)
 </div>
-
-````
-⚠️ The code will be released once the paper is accepted.
-````
 
 ## Overview
 
